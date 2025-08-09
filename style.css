@@ -1,0 +1,164 @@
+nav {
+    display: flex;
+    background-color:#A6E1FA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 10px;
+    z-index: 1000;
+
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.right div {
+    margin-left: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation:hover {
+    opacity: 50%;
+}
+
+.left div {
+    margin-left: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.navigation {
+    color: black;
+}
+
+body {
+    background-color: #0E6BA8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+#title {
+background-color: #A6E1FA;
+color: black;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 40px;
+
+}
+
+.cover {
+    clip-path: circle(50%);
+    width: 20%;
+    display: block;
+    margin-top: 20px;
+}
+
+#title, #abMe, #school, #education, #activities, #projects, #connect{
+    padding: 70px;
+    color: white;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1, .a2 {
+    width: 400px;
+    height: 240px;
+    
+}
+
+.abSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.abSection h2 {
+    text-align:center;
+}
+
+.school {
+    width: 200px;
+    margin: 10px;
+}
+
+.edu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    width: 100%;
+}
+
+.educationInfoLeft, .educationInfoRight {
+    flex: 1;
+}
+
+#title, #education, #projects{
+    background-color: #001C55;
+    color: white;
+}
+
+.acts, .socials{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 40px;
+    align-items: flex-start;
+}
+
+.icon {
+    width: 100px;
+}
+
+.act, .pro, .soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.act h2, .pro h2, .soc h2  {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.game {
+    width: 280px;
+    height: 150px;
+}
+
+.projs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.pro:hover, .soc:hover{
+opacity: 50%;
+text-decoration:none;
+}
+
+.pic {
+    width: 60px;
+}
